@@ -90,8 +90,10 @@ export class Draw {
 
     const targetContext = Draw.getLocalContext();
 
-    targetContext.translate(0, height);
-    targetContext.scale(1, -1);
+    //TODO: (FIX)MOVE THIS TO THE RENDERING OF THE CANVAS 
+
+    // targetContext.translate(0, height);
+    // targetContext.scale(1, -1);
 
     targetContext.beginPath();
 
